@@ -1,73 +1,38 @@
-# React + TypeScript + Vite
+Global Scheduling Analytics Dashboard
+Project Overview
+This is a high-performance data visualization platform designed to bridge the gap between enterprise scheduling data and actionable insights. Built specifically to demonstrate full-stack awareness and frontend excellence for the HENNGE Global Internship.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The dashboard features a predictive "Booking Volume" interface, simulating a real-world scenario where Tokyo-based operations analyze global traffic patterns from regional data hubs.
 
-Currently, two official plugins are available:
+Tech Stack
+Framework: React 18 (Vite-powered for high-speed HMR)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Language: TypeScript (Strict typing for enterprise reliability)
 
-## React Compiler
+Data Visualization: Recharts (SVG-based responsive area charts)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Icons: Lucide-React
 
-## Expanding the ESLint configuration
+Styling: Modern CSS-in-JS (Scalable and modular)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+ 
+ Key Features
+Real-time Analytics Simulation: Visualizes weekly booking flows with smooth animation.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Enterprise UI/UX: Clean, "Linear-style" interface with a focus on data density and scannability.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Predictive Accuracy Tracking: Includes status metrics for AI-driven prediction monitoring.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Responsive Architecture: Fully adapts to various screen sizes.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+ How to Run Locally
+Clone the repo: git clone 
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Install dependencies: npm install
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Start development server: npm run dev
+<img width="690" height="944" alt="Screenshot 2026-01-13 025100" src="https://github.com/user-attachments/assets/5c3db895-8dc1-43ff-b524-8caa9db90732" />
+
+
+
+HENNGE Values: Bridging technology and humanity through clear, accessible data visualization.
