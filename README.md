@@ -34,5 +34,5 @@ Start development server: npm run dev
 <img width="690" height="944" alt="Screenshot 2026-01-13 025100" src="https://github.com/user-attachments/assets/5c3db895-8dc1-43ff-b524-8caa9db90732" />
 
 
+<img width="672" height="912" alt="Screenshot 2026-01-13 030604" src="https://github.com/user-attachments/assets/8727db70-53ed-4d19-8ca5-06394f4d6f4d" />
 
-HENNGE Values: Bridging technology and humanity through clear, accessible data visualization.
